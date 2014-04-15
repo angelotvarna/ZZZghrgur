@@ -1,0 +1,150 @@
+/* @import url('normalize.css'); */
+/* General Demo Style */
+
+
+*{
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+a{
+	color: #555;
+	text-decoration: none;
+}
+
+
+.clr{
+	clear: both;
+	padding: 0;
+	height: 0;
+	margin: 0;
+}
+.main-title{
+	position: absolute;
+	z-index: -1;
+	width: 50%;
+	padding: 20px 40px;
+	text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.7);
+}
+.main-title h1{
+	font-size: 45px;
+	line-height: 52px;
+	font-weight: 300;
+	color: #777;
+	font-size: 500%;
+}
+.main-title h1 strong{
+	font-weight: 700;
+	font-size: 180%;
+}
+.main-title p{
+	font-size: 18px;
+	color: #F86738;
+}
+
+/* #Reset & Basics (Inspired by E. Meyers)
+================================================== */
+	html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+		margin: 0;
+		padding: 0;
+		border: 0;
+		font-size: 100%;
+		font: inherit;
+		vertical-align: baseline; }
+	article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+		display: block; }
+	body {
+		line-height: 1; }
+	ol, ul {
+		list-style: square;
+		font-size: 1.5em;
+		margin-left: 10px;
+		margin-bottom: 50px;
+		}
+	blockquote, q {
+		quotes: none; }
+	blockquote:before, blockquote:after,
+	q:before, q:after {
+		content: '';
+		content: none; }
+	table {
+		border-collapse: collapse;
+		border-spacing: 0; }
+body{
+	font-family: 'Open Sans Condensed','Arial Narrow', serif;
+	background: #ddd url(../images/fabric_plaid.png) repeat top left;
+	font-weight: 400;
+	font-size: 15px;
+	color: #333;
+	-webkit-font-smoothing: antialiased;
+	-moz-font-smoothing: antialiased;
+	font-smoothing: antialiased;
+	margin: 0;
+	overflow: hidden;
+}
+/*	Blockquotes  */
+	blockquote, blockquote p { font-size: 25px; line-height: 24px; color: #777; font-style: italic; }
+	blockquote { margin: 0 0 5px; padding: 9px 20px 0 19px; border-left: 1px solid #ddd; }
+	blockquote cite { display: block; font-size: 12px; color: #555; }
+	blockquote cite:before { content: "\2014 \0020"; }
+	blockquote cite a, blockquote cite a:visited, blockquote cite a:visited { color: #555; }
+
+	hr { border: solid #ddd; border-width: 1px 0 0; clear: both; margin: 10px 0 30px; height: 0; }
+
+
+
+/* #Typography
+================================================== */
+	h1, h2, h3, h4, h5, h6 {
+		color: #181818;
+		font-family: "Georgia", "Times New Roman", serif;
+		font-weight: normal; }
+	h1 a, h2 a, h3 a, h4 a, h5 a, h6 a { font-weight: inherit; }
+	h1 { font-size: 46px; line-height: 50px; margin-bottom: 14px;}
+	h2 { font-size: 35px; line-height: 40px; margin-bottom: 10px; }
+	h3 { font-size: 28px; line-height: 34px; margin-bottom: 8px; }
+	h4 { font-size: 21px; line-height: 30px; margin-bottom: 4px; }
+	h5 { font-size: 17px; line-height: 24px; }
+	h6 { font-size: 14px; line-height: 21px; }
+	.subheader { color: #777; }
+
+	p { margin: 0 0 20px 0; }
+	p img { margin: 0; }
+	p.lead { font-size: 21px; line-height: 27px; color: #777;  }
+
+	em { font-style: italic; }
+	strong { font-weight: bold; color: #333; }
+	small { font-size: 80%; }
+	
+	
+/*                                         
+88888b.  .d88b. 888d888.d8888b 888  888 
+888 "88bd8P  Y8b888P"  88K     888  888 
+888  88888888888888    "Y8888b.888  888 
+888 d88PY8b.    888         X88Y88b 888 
+88888P"  "Y8888 888     88888P' "Y88888 
+888                                 888 
+888                            Y8b d88P 
+888                             "Y88P"
+*/
+
+.list{
+	font-size: 200%;
+	 
+	
+}
+.fl{
+	float: left;
+	margin-right: 10px;
+}
+.fr{
+	float: right;
+	margin-left: 10px;
+}
+#abs p{
+	 
+	  
+	 left: 0%;
+	margin-left: 0%;
+}
